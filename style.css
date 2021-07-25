@@ -1,0 +1,172 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg,rgb(230, 72, 72),rgb(151, 63, 151));
+}
+.console{
+    height: 90vh;
+    position: relative;
+    width: 980px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(240, 248, 255, 0.295);
+}
+.play0{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+.playeractive{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.play1{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+.head0{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.score-0{
+    color: #C7365F;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;    
+   }
+   .currentscore-1{
+       background-color: #C7365F;
+       height: 120px;
+       width: 208px;
+       border-radius: 10px;
+       margin: 108px auto;
+       box-sizing: border-box;
+   }
+   h2{
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 15px;
+
+   }
+   .player1current{
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+   }
+   .head1{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #333333;
+       
+   }
+   .score-1{
+    color: #C7365F;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;    
+
+   }
+   .currentscore-2{
+    background-color: #C7365F;
+       height: 120px;
+       width: 208px;
+       border-radius: 10px;
+       margin: 108px auto;
+       box-sizing: border-box;
+   }
+   .player2current{
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+
+   }
+   #tap{
+    position: absolute;
+    height: 46px;
+    top: 10%;
+    left: 43%;
+    width: 179.88px;
+    padding: 7px 25px;
+    color: #4e4e4e;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffffffc4;
+    border-radius: 20px;
+   }
+   #roll{
+    position: absolute;
+    height: 46px;
+    top: 61%;
+    left: 44%;
+    width: 160.88px;
+    padding: 7px 25px;
+    color: #4e4e4e;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffffffc4;
+    border-radius: 20px;
+   }
+   #hold{
+    position: absolute;
+    height: 46px;
+    top: 72%;
+    left: 45%;
+    width: 120.88px;
+    padding: 7px 25px;
+    color: #4e4e4e;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffffffc4;
+    border-radius: 20px;
+
+   }
+   .dice{
+       position: absolute;
+       height: 100px;
+       z-index: 100;
+       top: 32%;
+       left: 46%;
+       box-shadow: 0 0 2px rgb(70, 70, 70);
+       box-shadow: 0 0 2px rgb(70, 70, 70);
+       box-shadow: 0 0 2px rgb(70, 70, 70);
+       box-shadow: 0 0 2px rgb(70, 70, 70);
+       box-shadow: 0 0 2px rgb(70, 70, 70);
+       box-shadow: 0 0 10px rgb(70, 70, 70);
+   }
+   .hidden{
+       display: none;
+   }
+   .playerwinner{
+       background-color: rgba(231, 245, 169, 0.247);
+   }
